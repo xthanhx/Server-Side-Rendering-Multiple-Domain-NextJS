@@ -1,0 +1,15 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "cSpell.words": [
+    "faceapi"
+  ],
+  "editor.tabSize": 4,
+  "[javascript]": {
+    "editor.tabSize": 4
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "editor.insertSpaces": true,
+  "color-picker.languages": ["javascript", "typescript"]
+}

@@ -1,0 +1,15 @@
+version : '3'
+services:
+    web:
+        build: 
+            args:
+                - branch=dev
+            context: .
+            dockerfile: Dockerfile
+        stdin_open: true    
+        tty: true
+        ports:
+            - "80:80"
+        volumes:
+            - /POS/node_modules
+            - .:/POS
