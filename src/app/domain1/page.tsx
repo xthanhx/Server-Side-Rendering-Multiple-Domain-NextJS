@@ -2,7 +2,7 @@ import { Nothing } from './_lib/common/components'
 
 const Domain1HomePage = () => (
 <div>
-    NhuongQuyen
+    domain 1
     <Nothing />
 </div>
 )

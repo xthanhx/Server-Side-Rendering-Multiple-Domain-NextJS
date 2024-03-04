@@ -1,4 +1,0 @@
-include: 
-  - project: 'buymed-circa/ci-cd'
-    file: '/.shared-gitlab-ci-docker-v3.yml'  ### use docker
-
