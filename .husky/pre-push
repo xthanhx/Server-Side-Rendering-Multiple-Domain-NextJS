@@ -1,5 +1,5 @@
-# #!/usr/bin/env sh
-# . "$(dirname -- "$0")/_/husky.sh"
-# . "$(dirname "$0")/common.sh"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+. "$(dirname "$0")/common.sh"
 
-# yarn build
+yarn build
